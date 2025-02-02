@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<raw>raw</raw>
+<Raw>Raw</Raw>
+<tanned>tanned</tanned>
+<Tanned>Tanned</Tanned>
+<wool>wool</wool>
+<Wool>Wool</Wool>
+<shorn>shorn</shorn>
+<Shorn>Shorn</Shorn>
+
+<hide>hide</hide>
+<Hide>Hide</Hide>
+<pelt>pelt</pelt>
+<Pelt>Pelt</Pelt>
+
+<RawPeltOf>raw {0_label} pelt</RawPeltOf>
+<TanningTimeDays>Tanning time (days)</TanningTimeDays>
+
+<HideDesc_Generic>An untanned animal skin. It can be tanned in a tanning vat to produce {TANNED_label}.</HideDesc_Generic>
+<WoolPeltDesc>The unprocessed pelt of a woolly animal. It can be tanned as is to get {TANNED_label}, or the {WOOL_label} can be cut away from the hide. Without the wool, this will be {SHORN_label}.</WoolPeltDesc>
+
+<HideInspectString_Wool>Wool: {0_label}</HideInspectString_Wool>
+<HideInspectString_Shorn>Shorn: {0_label}</HideInspectString_Shorn>
+<HideInspectString_Tanned>Tanned: {0_label}</HideInspectString_Tanned>
+
+</LanguageData>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="DoctorStupid_Leather_Human_Fur"]</xpath>
+	<match Class="PatchOperationAddModExtension">
+		<xpath>Defs/ThingDef[defName="DoctorStupid_Leather_Human_Fur"]</xpath>
+		<value>
+			<li Class="CyanobotsLeather.DME_LeatherExtension">
+				<hideLabel>raw human pelt</hideLabel>
+				<hideDescription>Furry pelt of a genetically modified human. It's soft and fuzzy and perfect for making warm winter sweaters, although most people would be troubled by its source. Needs tanning.</hideDescription>
+			</li>
+		</value>
+	</match>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="DoctorStupid_Leather_Human_Fur"]</xpath>
+	<match Class="PatchOperationAddModExtension">
+		<xpath>Defs/ThingDef[defName="DoctorStupid_Leather_Human_Fur"]</xpath>
+		<value>
+			<li Class="CyanobotsLeather.DME_LeatherExtension">
+				<hideLabel>raw heat-resistant human skin</hideLabel>
+				<hideDescription>Biogenetically engineered skin with extraordinary resistance to heat and flames. The only caveat is that it was grown on a living human person who is no longer in possesion of it, although that would be of little concern to some. Needs tanning.</hideDescription>
+			</li>
+		</value>
+	</match>
+</Operation>
+
+</Patch>

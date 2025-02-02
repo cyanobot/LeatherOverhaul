@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="AA_DevilSheep"]</xpath>
+	<match Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AA_DevilSheep"]/race/leatherDef</xpath>
+		<value>
+			<leatherDef>CYB_Leather_DevilWool</leatherDef>
+		</value>
+	</match>
+</Operation>
+
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="AA_ArcticLion"]</xpath>
+	<match Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AA_ArcticLion"]/comps/
+				li[@Class="CompProperties_Shearable"]/woolDef</xpath>
+		<value>
+			<woolDef>CYB_Wool_ArcticLion</woolDef>
+		</value>
+	</match>
+</Operation>
+
+
+</Patch>

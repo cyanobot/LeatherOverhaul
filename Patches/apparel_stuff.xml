@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[
+		apparel and
+		stuffCategories/li[text()="Leathery"] and
+		techLevel="Neolithic"
+		]/stuffCategories</xpath>
+	<value>
+		<li>CYB_Hide</li>
+	</value>
+</Operation>
+
+</Patch>

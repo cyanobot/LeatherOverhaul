@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="BuildingBase">
+		<defName>CYB_TanningVat</defName>
+		<label>tanning vats</label>
+		<description>A set of sturdy vats where animal skins can be soaked to transform them into leather.</description>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<graphicData>
+			<texPath>Things/Building/Production/CYB_TanningVat</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(2.2, 2.2)</drawSize>
+			<damageData>
+				<rect>(0,0.26,2.05,1.64)</rect>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+			<shadowData>
+				<volume>(2, 0.4, 1.5)</volume>
+				<offset>(0,0,0)</offset>
+			</shadowData>
+		</graphicData>
+		<size>(2,2)</size>
+		<uiIconPath>Things/Building/Production/CYB_TanningVat_north</uiIconPath>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+		</stuffCategories>
+		<costStuffCount>30</costStuffCount>
+		<researchPrerequisites>
+			<li>CYB_Tanning</li>
+		</researchPrerequisites>
+		<altitudeLayer>Building</altitudeLayer>
+		<canOverlapZones>false</canOverlapZones>
+		<fillPercent>0.6</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<castEdgeShadows>false</castEdgeShadows>
+		<pathCost>42</pathCost>
+		<statBases>
+			<Mass>5</Mass>
+			<MaxHitPoints>90</MaxHitPoints>
+			<WorkToBuild>1000</WorkToBuild>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<designationCategory>Production</designationCategory>
+		<passability>PassThroughOnly</passability>
+		<building>
+			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+		</building>
+		<comps>
+			<li Class="ProcessorFramework.CompProperties_Processor">
+				<showProductIcon>false</showProductIcon>
+				<capacity>75</capacity>
+				<independentProcesses>true</independentProcesses>
+				<parallelProcesses>true</parallelProcesses>
+				<processes/>
+			</li>
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_Refuelable">
+				<fuelConsumptionRate>1</fuelConsumptionRate>
+				<fuelCapacity>75</fuelCapacity>
+				<fuelFilter>
+					<thingDefs>
+						<li>CYB_Tannin</li>
+					</thingDefs>
+				</fuelFilter>
+				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+				<initialFuelPercent>0</initialFuelPercent>
+				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+			</li>	
+		</comps>
+		<tickerType>Rare</tickerType>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsProduction</li>
+		</thingCategories>
+	</ThingDef>
+	
+	<ProcessorFramework.ProcessDef Name="CYB_TanningProcess_Base">
+		<defName>CYB_TanningProcess_Base</defName>
+		<processDays>0.1</processDays>
+		<temperatureIdeal>0~100</temperatureIdeal>
+		<temperatureSafe>0~100</temperatureSafe>
+		<speedBelowSafe>0</speedBelowSafe>
+		<speedAboveSafe>0</speedAboveSafe>
+		<ruinedPerDegreePerHour>0</ruinedPerDegreePerHour>
+		<filledGraphicSuffix>_full</filledGraphicSuffix>
+	</ProcessorFramework.ProcessDef>
+	
+</Defs>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Cyanobot's Leather Overhaul</name>
+	<author>cyanobot</author>
+	<packageId>cyanobot.leatheroverhaul</packageId>
+	<supportedVersions>
+		<li>1.5</li>
+	</supportedVersions>
+	<description>Adds a leather production chain, with raw hides generated automatically in C#, a system for shearing the wool from woolly hides, and a reworked set of basic leathers.</description>
+	<modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+		</li>
+		<li>
+			<packageId>syrchalis.processor.framework</packageId>
+			<displayName>[SYR] Processor Framework</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3210544395</steamWorkshopUrl>
+			<downloadUrl>https://github.com/ViralReaction/ProcessorFramework</downloadUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>brrainz.harmony</li>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>Ludeon.RimWorld.Ideology</li>
+		<li>Ludeon.RimWorld.Biotech</li>
+		<li>syrchalis.processor.framework</li>
+		<li>adaptive.storage.neolithic</li>
+	</loadAfter>	
+</ModMetaData>

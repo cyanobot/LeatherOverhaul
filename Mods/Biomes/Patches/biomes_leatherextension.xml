@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<!--wooly-->
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="BMT_Leather_GlacialPlain"]</xpath>
+	<match Class="PatchOperationAddModExtension">
+		<xpath>Defs/ThingDef[defName="BMT_Leather_GlacialPlain"]</xpath>
+		<value>
+			<li Class="CyanobotsLeather.DME_LeatherExtension">
+				<woollyEquivalent>CYB_Leather_Polar</woollyEquivalent>
+			</li>
+		</value>
+	</match>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="BMT_DinoHideFeathery"]</xpath>
+	<match Class="PatchOperationAddModExtension">
+		<xpath>Defs/ThingDef[defName="BMT_DinoHideFeathery"]</xpath>
+		<value>
+			<li Class="CyanobotsLeather.DME_LeatherExtension">
+				<tanFromWoolHide>true</tanFromWoolHide>
+				<woolHideLabel>raw feathery pelt</woolHideLabel>
+				<shornEquivalent>BMT_DinoHideThin</shornEquivalent>
+			</li>
+		</value>
+	</match>
+</Operation>
+
+<!--descriptions-->
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="BMT_Leather_Gastropoda"]</xpath>
+	<match Class="PatchOperationAddModExtension">
+		<xpath>Defs/ThingDef[defName="BMT_Leather_Gastropoda"]</xpath>
+		<value>
+			<li Class="CyanobotsLeather.DME_LeatherExtension">
+				<hideLabel>raw molluskskin</hideLabel>
+				<hideDescription>Soft, wet skin from a mollusk. It's deeply unclear how well this will tan.</hideDescription>
+			</li>
+		</value>
+	</match>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="BMT_Leather_Amphibian"]</xpath>
+	<match Class="PatchOperationAddModExtension">
+		<xpath>Defs/ThingDef[defName="BMT_Leather_Amphibian"]</xpath>
+		<value>
+			<li Class="CyanobotsLeather.DME_LeatherExtension">
+				<hideLabel>raw amphibianskin</hideLabel>
+				<hideDescription>Soft, flexible skin from a large amphibian. Surprisingly amenable to forming leather, with the right tanning process.</hideDescription>
+			</li>
+		</value>
+	</match>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="BMT_Leather_Magma"]</xpath>
+	<match Class="PatchOperationAddModExtension">
+		<xpath>Defs/ThingDef[defName="BMT_Leather_Magma"]</xpath>
+		<value>
+			<li Class="CyanobotsLeather.DME_LeatherExtension">
+				<hideDescription>The tough skin of a fireproof creature. Valuable to those who like fireproof clothes.</hideDescription>
+			</li>
+		</value>
+	</match>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="BiomesIslands_Leather_Sharkskin"]</xpath>
+	<match Class="PatchOperationAddModExtension">
+		<xpath>Defs/ThingDef[defName="BiomesIslands_Leather_Sharkskin"]</xpath>
+		<value>
+			<li Class="CyanobotsLeather.DME_LeatherExtension">
+				<hideLabel>raw sharkskin</hideLabel>
+				<hideDescription>The coarse-textured skin of a shark. Can be tanned into a sturdy leather.</hideDescription>
+			</li>
+		</value>
+	</match>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="BiomesIslands_Leather_Fishskin"]</xpath>
+	<match Class="PatchOperationAddModExtension">
+		<xpath>Defs/ThingDef[defName="BiomesIslands_Leather_Fishskin"]</xpath>
+		<value>
+			<li Class="CyanobotsLeather.DME_LeatherExtension">
+				<hideLabel>raw fishskin</hideLabel>
+				<hideDescription>Despite the scales, this skin is quite thin and fragile. It makes an attractive but not especially tough leather.</hideDescription>
+			</li>
+		</value>
+	</match>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="BiomesIslands_Leather_Whaleskin"]</xpath>
+	<match Class="PatchOperationAddModExtension">
+		<xpath>Defs/ThingDef[defName="BiomesIslands_Leather_Whaleskin"]</xpath>
+		<value>
+			<li Class="CyanobotsLeather.DME_LeatherExtension">
+				<hideLabel>raw whaleskin</hideLabel>
+				<hideDescription>The thick, blubbery skin of a whale or other cetacean. Unpleasant to work with, but makes for a decent leather.</hideDescription>
+			</li>
+		</value>
+	</match>
+</Operation>
+
+</Patch>

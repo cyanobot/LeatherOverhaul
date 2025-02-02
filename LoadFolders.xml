@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<loadFolders>
+  <v1.5>
+	<li>/</li>
+	<li IfModActive="sarg.alphaanimals">Mods/AlphaAnimals</li>
+    <li IfModActive="BiomesTeam.BiomesCore">Mods/Biomes</li>
+	<li IfModActive="adaptive.storage.neolithic">Mods/AdaptiveStorageNeolithic</li>
+	<li IfModActive="DoctorStupid.PrettySkin">Mods/HumanButchery2</li>
+    <li IfModActive="onyxae.dragonsdescent">Mods/DragonsDescent</li>
+    <li IfModActive="cyanobot.OncaAndUncia">Mods/OncaAndUncia</li>
+    <li IfModActive="ReGrowth.BOTR.Core">Mods/ReGrowth</li>
+    <li IfModActive="VanillaExpanded.VAEWaste">Mods/VanillaAnimalsExpandedWaste</li>
+    <li IfModActive="vanillaracesexpanded.pigskin">Mods/VanillaRacesExpandedPigskin</li>
+  </v1.5>
+</loadFolders>

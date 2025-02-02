@@ -1,0 +1,4 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\LeatherOverhaul\Source\CyanobotsLeatherPatches\obj\Debug\CyanobotsLeatherOverhaul.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\LeatherOverhaul\Source\CyanobotsLeatherPatches\obj\Debug\CyanobotsLeatherOverhaul.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\LeatherOverhaul\Source\CyanobotsLeatherPatches\obj\Debug\CyanobotsLeatherPatches.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\LeatherOverhaul\Assemblies\CyanobotsLeatherPatches.dll

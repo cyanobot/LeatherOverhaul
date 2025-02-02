@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/ThingDef[defName="CYB_Leather_Uncia" or
+							defName="CYB_Leather_Onca"]</xpath>
+		<value>
+			<li Class="CyanobotsLeather.DME_LeatherExtension">
+				<hideLabel>raw panthera pelt</hideLabel>
+				<hideDescription>Untanned, furry skin harvested from... hang on a second. Did this come from a person?!</hideDescription>
+			</li>
+		</value>
+</Operation>
+
+
+</Patch>

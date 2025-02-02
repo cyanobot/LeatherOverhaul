@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<CyanobotsLeather.DefListDef>
+	<defName>CYB_LeatherInclusion</defName>
+	<whitelist>
+		<li MayRequire="DoctorStupid.PrettySkin">DoctorStupid_Leather_Human_Fur</li>
+		<li MayRequire="DoctorStupid.PrettySkin">DoctorStupid_Leather_Human_Heat</li>
+		<li MayRequire="cyanobot.OncaAndUncia">CYB_Leather_Uncia</li>
+		<li MayRequire="cyanobot.OncaAndUncia">CYB_Leather_Onca</li>
+	</whitelist>
+	<blacklist>
+		<li MayRequire="BiomesTeam.BiomesCaverns">BMT_CrimsonSilk</li>
+		<li MayRequire="sarg.alphaanimals">Leather_RaptorPlates</li>
+		<li MayRequire="sarg.alphaanimals">Leather_Cactus</li>
+	</blacklist>
+</CyanobotsLeather.DefListDef>
+
+<CyanobotsLeather.DefListDef>
+	<defName>CYB_WoolInclusion</defName>
+	<blacklist>
+		<li>WoodLog</li>
+		<li MayRequire="BiomesTeam.BiomesCaverns">BMT_CrimsonSilk</li>
+		<li MayRequire="BiomesTeam.BiomesCaverns">BMT_SpiderSilk</li>
+	</blacklist>
+</CyanobotsLeather.DefListDef>
+
+</Defs>

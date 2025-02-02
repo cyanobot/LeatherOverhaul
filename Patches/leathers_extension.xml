@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<!--wooly-->
+
+<Operation Class="PatchOperationAddModExtension">
+	<xpath>Defs/ThingDef[defName="Leather_Heavy"]</xpath>
+	<value>
+		<li Class="CyanobotsLeather.DME_LeatherExtension">
+			<shornEquivalent>CYB_Leather_Thick</shornEquivalent>
+			<tanFromWoolHide>true</tanFromWoolHide>
+		</li>
+	</value>
+</Operation>
+
+<!--custom descriptions-->
+
+<Operation Class="PatchOperationAddModExtension">
+	<xpath>Defs/ThingDef[defName="Leather_Plain"]</xpath>
+	<value>
+		<li Class="CyanobotsLeather.DME_LeatherExtension">
+			<hideDescription>This sturdy animal skin can be tanned to make good plainleather.</hideDescription>
+		</li>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationAddModExtension">
+	<xpath>Defs/ThingDef[defName="Leather_Light"]</xpath>
+	<value>
+		<li Class="CyanobotsLeather.DME_LeatherExtension">
+			<hideDescription>This animal skin can be tanned to make flexible lightleather not particularly suited to protection but perfectly adequate for clothing.</hideDescription>
+		</li>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationAddModExtension">
+	<xpath>Defs/ThingDef[defName="Leather_Camel"]</xpath>
+	<value>
+		<li Class="CyanobotsLeather.DME_LeatherExtension">
+			<hideDescription>The skin of a camel or similar creature. When tanned, the resultant camelskin offers good protection against heat.</hideDescription>
+		</li>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationAddModExtension">
+	<xpath>Defs/ThingDef[defName="Leather_Heavy"]</xpath>
+	<value>
+		<li Class="CyanobotsLeather.DME_LeatherExtension">
+			<hideDescription>The unprocessed pelt of a large furry animal. This fur is long and extremely dense, promising great warmth and good protection for the wearer.</hideDescription>
+			<shornEquivalent>CYB_Leather_Thick</shornEquivalent>
+		</li>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationAddModExtension">
+	<xpath>Defs/ThingDef[defName="Leather_Bird"]</xpath>
+	<value>
+		<li Class="CyanobotsLeather.DME_LeatherExtension">
+			<hideDescription>Birdskin is fragile, but it can still be tanned to a usable leather.</hideDescription>
+			<tanFromWoolHide>true</tanFromWoolHide>
+		</li>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationAddModExtension">
+	<xpath>Defs/ThingDef[defName="Leather_Thrumbo"]</xpath>
+	<value>
+		<li Class="CyanobotsLeather.DME_LeatherExtension">
+			<hideDescription>The pelt of the thrumbo is renowned across the rim for its strength, beauty, and warmth. Its properties only improve with tanning.</hideDescription>
+		</li>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationAddModExtension">
+	<xpath>Defs/ThingDef[defName="Leather_Human"]</xpath>
+	<value>
+		<li Class="CyanobotsLeather.DME_LeatherExtension">
+			<hideLabel>raw human skin</hideLabel>
+			<hideDescription>Human skin is thin and makes an objectively subpar leather, but some do find it to have a certain je ne sais quois...</hideDescription>
+		</li>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationAddModExtension">
+	<xpath>Defs/ThingDef[defName="Leather_Dread"]</xpath>
+	<value>
+		<li Class="CyanobotsLeather.DME_LeatherExtension">
+			<hideDescription>This peculiar skin has an unpleasant texture and a distinctive, nauseating odour.</hideDescription>
+		</li>
+	</value>
+</Operation>
+
+</Patch>

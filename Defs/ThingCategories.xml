@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingCategoryDef>
+		<defName>CYB_Hides</defName>
+		<label>hides</label>
+		<parent>ResourcesRaw</parent>
+		<iconPath>Things/Item/Resource/CYB_Hide/CYB_Hide_b</iconPath>
+	</ThingCategoryDef>
+	
+</Defs>

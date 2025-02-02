@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="LeatherBase">
+		<defName>CYB_Leather_DevilWool</defName>
+		<label>devilwool leather</label>
+		<description>A tanned hide bearing devilstrand instead of wool. Not as effective for protection or heat insulation as woven devilstrand cloth, but very convenient</description>
+		<graphicData>
+		  <color>(180,60,60)</color>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>120</MaxHitPoints>
+			<MarketValue>4.3</MarketValue>
+			<StuffPower_Armor_Sharp>0.96</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.29</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>2.0</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>16</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>20</StuffPower_Insulation_Heat>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<stuffProps>
+		  <color>(180,60,60)</color>
+		  <commonality>0.01</commonality>
+		  <categories>
+			<li>CYB_Furry</li>
+		  </categories>
+		  <statFactors>
+			<MaxHitPoints>1.3</MaxHitPoints>
+			<Flammability>0.5</Flammability>
+			<Comfort>1.05</Comfort>
+			<WorkToMake>1.1</WorkToMake>
+			<EquipDelay>1.05</EquipDelay>
+		  </statFactors>
+		</stuffProps>	
+		<modExtensions>
+			<li Class="CyanobotsLeather.DME_LeatherExtension">
+				<shornEquivalent>Leather_Light</shornEquivalent>
+				<tanFromWoolHide>true</tanFromWoolHide>
+				<hideLabel>raw devilwoolskin</hideLabel>
+				<generateBasicHide>false</generateBasicHide>
+			</li>
+		</modExtensions>	
+	</ThingDef>
+	
+	
+	<ThingDef ParentName="WoolBase">
+		<defName>CYB_Wool_ArcticLion</defName>
+		<label>arctic lion fur</label>
+		<description>The warm fur of an arctic lion, shorn from its hide or trimmed from its evergrowing coat.</description>
+		<graphicData>
+			<color>(229, 228, 235)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>4.5</MarketValue>
+			<StuffPower_Insulation_Cold>30</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>18</StuffPower_Insulation_Heat>
+		</statBases>
+		<stuffProps>
+			<color>(229, 228, 235)</color>
+			<commonality>0.01</commonality>
+			<statFactors>
+				<Beauty>2.0</Beauty>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+	  
+</Defs>

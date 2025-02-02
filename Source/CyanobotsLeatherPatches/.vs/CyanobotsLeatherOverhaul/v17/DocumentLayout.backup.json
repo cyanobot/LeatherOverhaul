@@ -1,0 +1,287 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LeatherOverhaul\\Source\\CyanobotsLeatherPatches\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D2612E6D-85D8-4D13-B5F9-6558F2518DE5}|CyanobotsLeatherOverhaul.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\leatheroverhaul\\source\\cyanobotsleatherpatches\\harmony\\patch_takeoutproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2612E6D-85D8-4D13-B5F9-6558F2518DE5}|CyanobotsLeatherOverhaul.csproj|solutionrelative:harmony\\patch_takeoutproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2612E6D-85D8-4D13-B5F9-6558F2518DE5}|CyanobotsLeatherOverhaul.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LeatherOverhaul\\Source\\CyanobotsLeatherPatches\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2612E6D-85D8-4D13-B5F9-6558F2518DE5}|CyanobotsLeatherOverhaul.csproj|solutionrelative:main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2612E6D-85D8-4D13-B5F9-6558F2518DE5}|CyanobotsLeatherOverhaul.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\leatheroverhaul\\source\\cyanobotsleatherpatches\\comptannablehide.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2612E6D-85D8-4D13-B5F9-6558F2518DE5}|CyanobotsLeatherOverhaul.csproj|solutionrelative:comptannablehide.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2612E6D-85D8-4D13-B5F9-6558F2518DE5}|CyanobotsLeatherOverhaul.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LeatherOverhaul\\Source\\CyanobotsLeatherPatches\\logutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2612E6D-85D8-4D13-B5F9-6558F2518DE5}|CyanobotsLeatherOverhaul.csproj|solutionrelative:logutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2612E6D-85D8-4D13-B5F9-6558F2518DE5}|CyanobotsLeatherOverhaul.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LeatherOverhaul\\Source\\CyanobotsLeatherPatches\\harmony\\patch_generateimplieddefs_preresolve_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2612E6D-85D8-4D13-B5F9-6558F2518DE5}|CyanobotsLeatherOverhaul.csproj|solutionrelative:harmony\\patch_generateimplieddefs_preresolve_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2612E6D-85D8-4D13-B5F9-6558F2518DE5}|CyanobotsLeatherOverhaul.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LeatherOverhaul\\Source\\CyanobotsLeatherPatches\\woolutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2612E6D-85D8-4D13-B5F9-6558F2518DE5}|CyanobotsLeatherOverhaul.csproj|solutionrelative:woolutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2612E6D-85D8-4D13-B5F9-6558F2518DE5}|CyanobotsLeatherOverhaul.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LeatherOverhaul\\Source\\CyanobotsLeatherPatches\\thoughtworker_untannedapparel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2612E6D-85D8-4D13-B5F9-6558F2518DE5}|CyanobotsLeatherOverhaul.csproj|solutionrelative:thoughtworker_untannedapparel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2612E6D-85D8-4D13-B5F9-6558F2518DE5}|CyanobotsLeatherOverhaul.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LeatherOverhaul\\Source\\CyanobotsLeatherPatches\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2612E6D-85D8-4D13-B5F9-6558F2518DE5}|CyanobotsLeatherOverhaul.csproj|solutionrelative:settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2612E6D-85D8-4D13-B5F9-6558F2518DE5}|CyanobotsLeatherOverhaul.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LeatherOverhaul\\Source\\CyanobotsLeatherPatches\\implieddefutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2612E6D-85D8-4D13-B5F9-6558F2518DE5}|CyanobotsLeatherOverhaul.csproj|solutionrelative:implieddefutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2612E6D-85D8-4D13-B5F9-6558F2518DE5}|CyanobotsLeatherOverhaul.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LeatherOverhaul\\Source\\CyanobotsLeatherPatches\\dme_leatherextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2612E6D-85D8-4D13-B5F9-6558F2518DE5}|CyanobotsLeatherOverhaul.csproj|solutionrelative:dme_leatherextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2612E6D-85D8-4D13-B5F9-6558F2518DE5}|CyanobotsLeatherOverhaul.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LeatherOverhaul\\Source\\CyanobotsLeatherPatches\\defremoval.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2612E6D-85D8-4D13-B5F9-6558F2518DE5}|CyanobotsLeatherOverhaul.csproj|solutionrelative:defremoval.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2612E6D-85D8-4D13-B5F9-6558F2518DE5}|CyanobotsLeatherOverhaul.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LeatherOverhaul\\Source\\CyanobotsLeatherPatches\\deflistdef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2612E6D-85D8-4D13-B5F9-6558F2518DE5}|CyanobotsLeatherOverhaul.csproj|solutionrelative:deflistdef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2612E6D-85D8-4D13-B5F9-6558F2518DE5}|CyanobotsLeatherOverhaul.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LeatherOverhaul\\Source\\CyanobotsLeatherPatches\\cyanobotsleather_defof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2612E6D-85D8-4D13-B5F9-6558F2518DE5}|CyanobotsLeatherOverhaul.csproj|solutionrelative:cyanobotsleather_defof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2612E6D-85D8-4D13-B5F9-6558F2518DE5}|CyanobotsLeatherOverhaul.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LeatherOverhaul\\Source\\CyanobotsLeatherPatches\\harmony\\patch_thoughtworker_humanleatherapparel_currentthoughtstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2612E6D-85D8-4D13-B5F9-6558F2518DE5}|CyanobotsLeatherOverhaul.csproj|solutionrelative:harmony\\patch_thoughtworker_humanleatherapparel_currentthoughtstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2612E6D-85D8-4D13-B5F9-6558F2518DE5}|CyanobotsLeatherOverhaul.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LeatherOverhaul\\Source\\CyanobotsLeatherPatches\\harmony\\patch_hotreloaddefs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2612E6D-85D8-4D13-B5F9-6558F2518DE5}|CyanobotsLeatherOverhaul.csproj|solutionrelative:harmony\\patch_hotreloaddefs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2612E6D-85D8-4D13-B5F9-6558F2518DE5}|CyanobotsLeatherOverhaul.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LeatherOverhaul\\Source\\CyanobotsLeatherPatches\\harmony\\patch_generateimplieddefs_preresolve_preautowool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2612E6D-85D8-4D13-B5F9-6558F2518DE5}|CyanobotsLeatherOverhaul.csproj|solutionrelative:harmony\\patch_generateimplieddefs_preresolve_preautowool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 360,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Patch_TakeOutProduct.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LeatherOverhaul\\Source\\CyanobotsLeatherPatches\\Harmony\\Patch_TakeOutProduct.cs",
+              "RelativeDocumentMoniker": "Harmony\\Patch_TakeOutProduct.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LeatherOverhaul\\Source\\CyanobotsLeatherPatches\\Harmony\\Patch_TakeOutProduct.cs",
+              "RelativeToolTip": "Harmony\\Patch_TakeOutProduct.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T13:51:30.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CompTannableHide.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LeatherOverhaul\\Source\\CyanobotsLeatherPatches\\CompTannableHide.cs",
+              "RelativeDocumentMoniker": "CompTannableHide.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LeatherOverhaul\\Source\\CyanobotsLeatherPatches\\CompTannableHide.cs",
+              "RelativeToolTip": "CompTannableHide.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T13:42:45.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WoolUtility.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LeatherOverhaul\\Source\\CyanobotsLeatherPatches\\WoolUtility.cs",
+              "RelativeDocumentMoniker": "WoolUtility.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LeatherOverhaul\\Source\\CyanobotsLeatherPatches\\WoolUtility.cs",
+              "RelativeToolTip": "WoolUtility.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T13:39:34.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Main.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LeatherOverhaul\\Source\\CyanobotsLeatherPatches\\Main.cs",
+              "RelativeDocumentMoniker": "Main.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LeatherOverhaul\\Source\\CyanobotsLeatherPatches\\Main.cs",
+              "RelativeToolTip": "Main.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T13:39:27.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ImpliedDefUtility.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LeatherOverhaul\\Source\\CyanobotsLeatherPatches\\ImpliedDefUtility.cs",
+              "RelativeDocumentMoniker": "ImpliedDefUtility.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LeatherOverhaul\\Source\\CyanobotsLeatherPatches\\ImpliedDefUtility.cs",
+              "RelativeToolTip": "ImpliedDefUtility.cs",
+              "ViewState": "AgIAABsBAAAAAAAAAAAowKMAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T12:49:48.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Patch_GenerateImpliedDefs_PreResolve_Main.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LeatherOverhaul\\Source\\CyanobotsLeatherPatches\\Harmony\\Patch_GenerateImpliedDefs_PreResolve_Main.cs",
+              "RelativeDocumentMoniker": "Harmony\\Patch_GenerateImpliedDefs_PreResolve_Main.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LeatherOverhaul\\Source\\CyanobotsLeatherPatches\\Harmony\\Patch_GenerateImpliedDefs_PreResolve_Main.cs",
+              "RelativeToolTip": "Harmony\\Patch_GenerateImpliedDefs_PreResolve_Main.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T11:29:12.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LogUtil.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LeatherOverhaul\\Source\\CyanobotsLeatherPatches\\LogUtil.cs",
+              "RelativeDocumentMoniker": "LogUtil.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LeatherOverhaul\\Source\\CyanobotsLeatherPatches\\LogUtil.cs",
+              "RelativeToolTip": "LogUtil.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T19:07:12.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Settings.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LeatherOverhaul\\Source\\CyanobotsLeatherPatches\\Settings.cs",
+              "RelativeDocumentMoniker": "Settings.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LeatherOverhaul\\Source\\CyanobotsLeatherPatches\\Settings.cs",
+              "RelativeToolTip": "Settings.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T19:07:39.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ThoughtWorker_UntannedApparel.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LeatherOverhaul\\Source\\CyanobotsLeatherPatches\\ThoughtWorker_UntannedApparel.cs",
+              "RelativeDocumentMoniker": "ThoughtWorker_UntannedApparel.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LeatherOverhaul\\Source\\CyanobotsLeatherPatches\\ThoughtWorker_UntannedApparel.cs",
+              "RelativeToolTip": "ThoughtWorker_UntannedApparel.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwBwAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T19:07:43.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DME_LeatherExtension.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LeatherOverhaul\\Source\\CyanobotsLeatherPatches\\DME_LeatherExtension.cs",
+              "RelativeDocumentMoniker": "DME_LeatherExtension.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LeatherOverhaul\\Source\\CyanobotsLeatherPatches\\DME_LeatherExtension.cs",
+              "RelativeToolTip": "DME_LeatherExtension.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T21:39:55.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DefRemoval.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LeatherOverhaul\\Source\\CyanobotsLeatherPatches\\DefRemoval.cs",
+              "RelativeDocumentMoniker": "DefRemoval.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LeatherOverhaul\\Source\\CyanobotsLeatherPatches\\DefRemoval.cs",
+              "RelativeToolTip": "DefRemoval.cs",
+              "ViewState": "AgIAAOkAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T13:38:45.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CyanobotsLeather_DefOf.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LeatherOverhaul\\Source\\CyanobotsLeatherPatches\\CyanobotsLeather_DefOf.cs",
+              "RelativeDocumentMoniker": "CyanobotsLeather_DefOf.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LeatherOverhaul\\Source\\CyanobotsLeatherPatches\\CyanobotsLeather_DefOf.cs",
+              "RelativeToolTip": "CyanobotsLeather_DefOf.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T14:18:29.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Patch_ThoughtWorker_HumanLeatherApparel_CurrentThoughtState.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LeatherOverhaul\\Source\\CyanobotsLeatherPatches\\Harmony\\Patch_ThoughtWorker_HumanLeatherApparel_CurrentThoughtState.cs",
+              "RelativeDocumentMoniker": "Harmony\\Patch_ThoughtWorker_HumanLeatherApparel_CurrentThoughtState.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LeatherOverhaul\\Source\\CyanobotsLeatherPatches\\Harmony\\Patch_ThoughtWorker_HumanLeatherApparel_CurrentThoughtState.cs",
+              "RelativeToolTip": "Harmony\\Patch_ThoughtWorker_HumanLeatherApparel_CurrentThoughtState.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAqwB0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T12:18:21.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Patch_HotReloadDefs.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LeatherOverhaul\\Source\\CyanobotsLeatherPatches\\Harmony\\Patch_HotReloadDefs.cs",
+              "RelativeDocumentMoniker": "Harmony\\Patch_HotReloadDefs.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LeatherOverhaul\\Source\\CyanobotsLeatherPatches\\Harmony\\Patch_HotReloadDefs.cs",
+              "RelativeToolTip": "Harmony\\Patch_HotReloadDefs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T11:52:09.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DefListDef.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LeatherOverhaul\\Source\\CyanobotsLeatherPatches\\DefListDef.cs",
+              "RelativeDocumentMoniker": "DefListDef.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LeatherOverhaul\\Source\\CyanobotsLeatherPatches\\DefListDef.cs",
+              "RelativeToolTip": "DefListDef.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T19:07:05.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Patch_GenerateImpliedDefs_PreResolve_PreAutoWool.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LeatherOverhaul\\Source\\CyanobotsLeatherPatches\\Harmony\\Patch_GenerateImpliedDefs_PreResolve_PreAutoWool.cs",
+              "RelativeDocumentMoniker": "Harmony\\Patch_GenerateImpliedDefs_PreResolve_PreAutoWool.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\LeatherOverhaul\\Source\\CyanobotsLeatherPatches\\Harmony\\Patch_GenerateImpliedDefs_PreResolve_PreAutoWool.cs",
+              "RelativeToolTip": "Harmony\\Patch_GenerateImpliedDefs_PreResolve_PreAutoWool.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T13:42:32.978Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

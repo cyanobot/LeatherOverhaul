@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="RG_Toxirrel" or
+							defName="RG_Toxbeaver" or
+							defName="BMT_ToxSheep" or
+							defName="BMT_Glowtail" or
+							defName="BMT_MucklurkerCatfish" or
+							defName="BMT_MutatingTumorfishSpawn" or
+							defName="BMT_MutatingTumorfishFry" or
+							defName="BMT_MutatingTumorfishAdult" or
+							defName="BMT_Screecher" or
+							defName="BMT_TaintedTurtle" or
+							defName="BMT_Varmot" or
+							defName="BMT_WasteHound"
+							]/race/leatherDef</xpath>
+		<value>
+			<leatherDef>VAEWaste_ToxicLeather</leatherDef>
+		</value>
+		<success>Always</success>
+</Operation>
+
+<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/ThingDef[defName="VAEWaste_ToxicLeather"]</xpath>
+		<value>
+			<li Class="CyanobotsLeather.DME_LeatherExtension">
+				<hideDescription>A sickly, mutated hide. Maybe it'll tan up into something usable.</hideDescription>
+			</li>
+		</value>
+</Operation>
+
+</Patch>

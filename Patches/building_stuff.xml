@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[
+		defName="AnimalFlap" or
+		defName="Drum" or
+		defName="Bedroll" or
+		defName="BedrollDouble" or
+		defName="BedrollTriple" or
+		defName="BedrollQuad" or
+		defName="RR_Bedroll" or
+		defName="RR_FurBed" or
+		defName="RR_FurDoubleBed" or
+		defName="RR_FluffPillow" or
+		defName="RR_RoundPillow" or
+		defName="RR_FluffyRoundRug" or
+		defName="RR_LeatherRoundRug" or
+		@Name="HeronClothDoorBase" or
+		defName="Rede" or
+		defName="VBY_StorageTent" or
+		defName="ASF_StorageTent"
+		]/stuffCategories</xpath>
+	<value>
+		<li>CYB_Hide</li>
+	</value>
+</Operation>
+
+</Patch>

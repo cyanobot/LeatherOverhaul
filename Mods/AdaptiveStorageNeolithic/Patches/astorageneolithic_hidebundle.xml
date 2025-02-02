@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationAdd">
+		<xpath>Defs</xpath>
+		<value>
+		
+		
+<ThingDef MayRequire="adaptive.storage.neolithic" ParentName="ASNeolithicTextileBundleBase">
+	<defName>CYB_ASNeolithicTextileBundle_Hide</defName>
+	<graphicData>
+		<texPath>ASNeolithic/TextileBundle/TextileBundleLeathera</texPath>
+	</graphicData>
+	<uiIconPath>ASNeolithic/TextileBundle/TextileBundleLeatherc_south</uiIconPath>
+	<stuffCategories>
+		<li>CYB_Hide</li>
+	</stuffCategories>
+</ThingDef>
+
+<AdaptiveStorage.GraphicsDef MayRequire="adaptive.storage.neolithic">
+	<defName>CYB_ASNeolithicTextileBundle_Hide</defName>
+	<targetDef>CYB_ASNeolithicTextileBundle_Hide</targetDef>
+	<graphics>
+		<li>
+			<graphicData>
+				<texPath>ASNeolithic/TextileBundle/TextileBundleLeathera</texPath>
+				<graphicClass>Graphic_Multi</graphicClass>
+				<drawSize>(1.9,1.9)</drawSize>
+			</graphicData>
+		</li>
+		<li>
+			<graphicData>
+				<texPath>ASNeolithic/TextileBundle/TextileBundleLeatherb</texPath>
+				<graphicClass>Graphic_Multi</graphicClass>
+				<drawSize>(1.9,1.9)</drawSize>
+			</graphicData>
+			<minimumStackCount>1</minimumStackCount>
+		</li>
+		<li>
+			<graphicData>
+				<texPath>ASNeolithic/TextileBundle/TextileBundleLeatherc</texPath>
+				<graphicClass>Graphic_Multi</graphicClass>
+				<drawSize>(1.9,1.9)</drawSize>
+			</graphicData>
+			<minimumStackCount>4</minimumStackCount>
+		</li>
+	</graphics>
+	<showContainedItems>false</showContainedItems>
+	<useDominantContentColor>true</useDominantContentColor>
+</AdaptiveStorage.GraphicsDef>
+
+		
+		
+		
+		
+		</value>
+</Operation>
+
+</Patch>

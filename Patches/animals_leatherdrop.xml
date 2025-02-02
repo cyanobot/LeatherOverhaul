@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<!--instead of inheriting from base bear, polar bear has polar fur-->
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Bear_Polar"]/race</xpath>
+	<value>
+		<leatherDef>CYB_Leather_Polar</leatherDef>
+	</value>
+</Operation>
+
+
+<!--some animals that would give light or plain leather should give fur-->
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[defName="Husky" or
+						defName="Alphabeaver" or
+						defName="Capybara" or
+						defName="BMT_SeaOtter" or
+						defName="BMT_Mole" or
+						defName="BMT_FenridStoat" or
+						defName="RG_Toxbeaver" or
+						defName="RG_Megalenhydris" or
+						defName="AEXP_Bonobo" or
+						defName="AEXP_Thylacine" or
+						defName="AEXP_TasmanianDevil" or
+						defName="VAERoy_Orangutan" or
+						defName="AEXP_Koala" or
+						defName="AEXP_Otter" or
+						defName="AEXP_Badger" or
+						defName="AEXP_Beaver" or
+						defName="AEXP_Gorilla" or
+						defName="AEXP_Mandrill" or
+						defName="AEXP_Porcupine" or
+						defName="Andrewsarchus" or
+						defName="Castoroides" or
+						defName="Procoptodon" or
+						defName="ERN_MountainDog" or
+						defName="Grimstone_Sheepdog"
+						]/race/leatherDef</xpath>
+	<value>
+		<leatherDef>CYB_Leather_Fur</leatherDef>
+	</value>
+</Operation>
+
+<!--most animals that by default drop light leather should drop soft fur
+	with some non-furry exceptions-->
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[not(
+		defName="YorkshireTerrier" or
+		defName="BMT_Maligoat" or
+		defName="BMT_Varmot" or
+		defName="RG_Toxirrel" or
+		defName="AEXP_CatSphynx" or
+		defName="AA_EngorgedTentacularAberration" or
+		defName="AA_Eyeling" or
+		defName="AA_MatureFleshbeast" or
+		defName="AA_Summoned_Eyeling" or
+		defName="AA_OcularJelly" or
+		defName="AA_RedSpore" or
+		defName="AA_TarGuzzler"
+	)]/race/leatherDef[
+		text()="Leather_Light"
+		]</xpath>
+	<value>
+		<leatherDef>CYB_Leather_SoftFur</leatherDef>
+	</value>
+</Operation>
+
+<!--a couple of animals that I think should give light-->
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[defName="Deer" or
+						defName="Gazelle" or
+						defName="Goat" or
+						defName="BMT_Sutekh" or
+						defName="AEXP_Hyena" or
+						defName="ERN_Armadillo"
+						]/race/leatherDef</xpath>
+	<value>
+		<leatherDef>Leather_Light</leatherDef>
+	</value>
+</Operation>
+
+<!--(modded) big scaly animals-->
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[
+						defName="BiomesIslands_Gigantaconda" or
+						defName="BiomesIslands_GalapagosTortoise" or
+						defName="BMT_KomodoDragon" or
+						defName="BMT_Basilisk" or
+						defName="BMT_HungeringHydra" or
+						defName="BMT_MaceDrake" or
+						defName="BMT_Stoneback" or
+						defName="BMT_BiliousVarog" or
+						defName="BMT_TripleSnapper" or
+						defName="RG_Rimclaw" or
+						defName="VAEXP_Pangolin" or
+						defName="VAEWaste_Pestigator" or
+						defName="AEXP_Crocodile" or
+						defName="AEXP_GilaMonster" or
+						defName="AEXP_Alligator" or
+						defName="Gigantophis" or
+						defName="Megalania" or
+						defName="Megalochelys" or
+						defName="Purussaurus" or
+						defName="Quinkana" or
+						defName="Titanoboa" or
+						defName="Abrolo_Sarcho" or
+						defName="CK_KomodoDragon" or
+						defName="AA_AnimaColossus" or
+						defName="AA_OvergrownColossus" or
+						defName="AA_Erin" or
+						defName="AA_Lockjaw" or
+						defName="AA_RoughPlatedMonitor"
+						]/race/leatherDef</xpath>
+	<value>
+		<leatherDef>CYB_Leather_HeavyScale</leatherDef>
+	</value>
+	<success>Always</success>
+</Operation>
+
+<!--(modded) thick skins-->
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[
+						defName="BMT_CrystalFairyMole" or
+						defName="BiomesIslands_Walrus" or
+						defName="AEXP_Walrus" or
+						defName="Chalicotherium" or
+						defName="Macrauchenia" or
+						defName="Megaloceros" or
+						defName="Sivatherium" or
+						defName="AA_Gigantelope" or
+						defName="AA_RipperHound"
+						]/race/leatherDef</xpath>
+	<value>
+		<leatherDef>CYB_Leather_Thick</leatherDef>
+	</value>
+	<success>Always</success>
+</Operation>
+
+<!--(modded) heavy fur-->
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[
+						defName="BMT_CryoMammoth" or
+						defName="RG_WoollyMammoth"
+						]/race/leatherDef</xpath>
+	<value>
+		<leatherDef>Leather_Heavy</leatherDef>
+	</value>
+	<success>Always</success>
+</Operation>
+
+<!--(modded) luxury fur-->
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[
+						defName="ERN_Mink"
+						]/race/leatherDef</xpath>
+	<value>
+		<leatherDef>CYB_Leather_LuxuryFur</leatherDef>
+	</value>
+	<success>Always</success>
+</Operation>
+
+<!--(modded) heavy fur-->
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[
+						defName="ERN_Ferret" or
+						defName="ATK_Devilhare"
+						]/race/leatherDef</xpath>
+	<value>
+		<leatherDef>CYB_Leather_SoftFur</leatherDef>
+	</value>
+	<success>Always</success>
+</Operation>
+
+<!--(modded) polar animals-->
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[
+						defName="BMT_Snowstalker" or
+						defName="Snow_leopard" or
+						defName="ERN_FrostWolf" or
+						defName="AA_Frostling"
+						]/race/leatherDef</xpath>
+	<value>
+		<leatherDef>CYB_Leather_Polar</leatherDef>
+	</value>
+	<success>Always</success>
+</Operation>
+
+<!--(modded) plain leather-->
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[
+						defName="AEXP_Cheetah" or
+						defName="AEXP_Kangaroo" or
+						defName="AEXP_Muskox" or
+						defName="Aurochs" or
+						defName="Daeodon" or
+						defName="AA_SpinedGow"
+						]/race/leatherDef</xpath>
+	<value>
+		<leatherDef>Leather_Plain</leatherDef>
+	</value>
+	<success>Always</success>
+</Operation>
+
+<!--waste rat-->
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="VAEWaste_ToxicLeather"]</xpath>
+	<match Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="WasteRat" or defName="Toxalope"]/race</xpath>
+		<value>
+			<leatherDef>VAEWaste_ToxicLeather</leatherDef>
+		</value>
+	</match>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="WasteRat"]/race</xpath>
+		<value>
+			<leatherDef>Leather_Light</leatherDef>
+		</value>
+	</nomatch>
+</Operation>
+
+</Patch>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<!--wooly-->
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="RG_DinosaursHideHeavy"]</xpath>
+	<match Class="PatchOperationAddModExtension">
+		<xpath>Defs/ThingDef[defName="RG_DinosaursHideHeavy"]</xpath>
+		<value>
+			<li Class="CyanobotsLeather.DME_LeatherExtension">
+				<woollyEquivalent>Leather_Heavy</woollyEquivalent>
+			</li>
+		</value>
+	</match>
+</Operation>
+
+
+</Patch>

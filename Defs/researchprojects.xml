@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ResearchProjectDef>
+    <defName>CYB_Tanning</defName>
+    <label>leather tanning</label>
+    <description>Process animal hides into leather.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewX>0.00</researchViewX>
+    <researchViewY>0.00</researchViewY>
+	<prerequisites>
+		<li MayRequire="OskarPotocki.VFE.Tribals">VFET_Culture</li>
+	</prerequisites>
+    <tags>
+      <li>ClassicStart</li>
+    </tags>
+  </ResearchProjectDef>
+
+</Defs>

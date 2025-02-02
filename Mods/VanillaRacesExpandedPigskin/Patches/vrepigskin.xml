@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationRemove">
+		<xpath>Defs/CyanobotsLeather.LeatherMergeDef[defName="LeatherMerge_Light"]
+		/mergeFrom/li[text()="Leather_Pig"]</xpath>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Leather_Pig"]/label</xpath>
+		<value>
+			<label>pigleather</label>
+		</value>
+</Operation>
+
+<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/ThingDef[defName="Leather_Pig"]</xpath>
+		<value>
+			<li Class="CyanobotsLeather.DME_LeatherExtension">
+				<hideLabel>raw pigskin</hideLabel>
+				<hideDescription>Pigskin makes for an underwhelming leather, neither especially durable nor insulating. Some people also don't like the risk that it was harvested from a sapient Pigskin person.</hideDescription>
+			</li>
+		</value>
+</Operation>
+
+</Patch>

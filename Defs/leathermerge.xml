@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<CyanobotsLeather.LeatherMergeDef>
+	<defName>LeatherMerge_Light</defName>
+	<mergeTo>Leather_Light</mergeTo>
+	<mergeFrom>
+		<li>Leather_Pig</li>
+		<li>Leather_Dog</li>
+	</mergeFrom>
+</CyanobotsLeather.LeatherMergeDef>
+
+<CyanobotsLeather.LeatherMergeDef>
+	<defName>LeatherMerge_Plain</defName>
+	<mergeTo>Leather_Plain</mergeTo>
+	<mergeFrom>
+		<li>Leather_Bluefur</li>
+		<li MayRequire="VanillaExpanded.VanillaAnimalsExpanded">AEXP_Leather_Wildebeest</li>
+		<li MayRequire="VanillaExpanded.VanillaAnimalsExpanded">AEXP_Leather_Lion</li>
+		<li MayRequire="ATK.DevilstrandAnimals,cyanobot.coloredleatherandwool">ATK_Leather_Devilhide</li>
+	</mergeFrom>
+</CyanobotsLeather.LeatherMergeDef>
+
+<CyanobotsLeather.LeatherMergeDef>
+	<defName>LeatherMerge_Fur</defName>
+	<mergeTo>CYB_Leather_Fur</mergeTo>
+	<mergeFrom>
+		<li>Leather_Wolf</li>
+		<li>Leather_Panthera</li>
+		<li>Leather_Fox</li>
+		<li MayRequire="VanillaExpanded.VanillaAnimalsExpanded">AEXP_Leather_Tiger</li>
+		<li MayRequire="VanillaExpanded.VanillaAnimalsExpanded">AEXP_Leather_Platypus</li>
+		<li MayRequire="Mlie.TropickappRainforestMod">CK_LeatherPanda</li>
+		<li MayRequire="Mlie.TropickappRainforestMod">CK_LeatherTiger</li>
+		<li MayRequire="Mlie.TropickappRainforestMod">CK_LeatherWhiteTiger</li>
+		<li MayRequire="Mlie.TropickappRainforestMod">CK_LeatherJaguar</li>
+		<li MayRequire="pphhyy.SanguinaryAnimals">pphhyy_Leather_SanguineDeer</li>
+		<li MayRequire="pphhyy.SanguinaryAnimals">pphhyy_Leather_Vargulf</li>
+	</mergeFrom>
+</CyanobotsLeather.LeatherMergeDef>
+
+<CyanobotsLeather.LeatherMergeDef>
+	<defName>LeatherMerge_Heavy</defName>
+	<mergeTo>Leather_Heavy</mergeTo>
+	<mergeFrom>
+		<li>Leather_Bear</li>
+		<li MayRequire="Abrolo.Grimstone.Beasts">Grimstone_Leather_Griffar</li>
+		<li MayRequire="pphhyy.DemigryphsMod">pphhyy_Leather_Demigryph</li>
+	</mergeFrom>
+</CyanobotsLeather.LeatherMergeDef>
+
+<CyanobotsLeather.LeatherMergeDef>
+	<defName>LeatherMerge_SoftFur</defName>
+	<mergeTo>CYB_Leather_SoftFur</mergeTo>
+	<mergeFrom>
+		<li>Leather_GuineaPig</li>
+		<li MayRequire="Mlie.TropickappRainforestMod">CK_LeatherMonkey</li>
+		<li MayRequire="Mlie.TropickappRainforestMod">CK_LeatherArcticHare</li>
+	</mergeFrom>
+</CyanobotsLeather.LeatherMergeDef>
+
+<CyanobotsLeather.LeatherMergeDef>
+	<defName>LeatherMerge_LuxuryFur</defName>
+	<mergeTo>CYB_Leather_LuxuryFur</mergeTo>
+	<mergeFrom>
+		<li>Leather_Chinchilla</li>
+		<li MayRequire="Erin.FFAnimals">Fur_Carbuncle</li>
+	</mergeFrom>
+</CyanobotsLeather.LeatherMergeDef>
+
+<CyanobotsLeather.LeatherMergeDef>
+	<defName>LeatherMerge_Thick</defName>
+	<mergeTo>CYB_Leather_Thick</mergeTo>
+	<mergeFrom>
+		<li>Leather_Elephant</li>
+		<li>Leather_Rhinoceros</li>
+		<li MayRequire="BiomesTeam.BiomesCore">BMT_ToughLeather</li>
+		<li MayRequire="VanillaExpanded.VanillaAnimalsExpanded">AEXP_Leather_Hippopotamus</li>
+	</mergeFrom>
+</CyanobotsLeather.LeatherMergeDef>
+
+<CyanobotsLeather.LeatherMergeDef>
+	<defName>LeatherMerge_LightScale</defName>
+	<mergeTo>CYB_Leather_LightScale</mergeTo>
+	<mergeFrom>
+		<li>Leather_Lizard</li>
+		<li MayRequire="Erin.Valheim.Creatures">ERN_Scaled_Hide</li>
+		<li MayRequire="Erin.FFAnimals">Leather_Amaro</li>
+		<li MayRequire="Mlie.TropickappRainforestMod">CK_LeatherPython</li>
+	</mergeFrom>
+</CyanobotsLeather.LeatherMergeDef>
+
+<CyanobotsLeather.LeatherMergeDef MayRequireAnyOf="Mlie.TropickappRainforestMod,sarg.alphaanimals">
+	<defName>LeatherMerge_HeavyScale</defName>
+	<mergeTo>CYB_Leather_HeavyScale</mergeTo>
+	<mergeFrom>
+		<li MayRequire="Mlie.TropickappRainforestMod">CK_LeatherKomodoDragon</li>		
+		<li MayRequire="sarg.alphaanimals">AA_Leather_Behemoth</li>
+	</mergeFrom>
+</CyanobotsLeather.LeatherMergeDef>
+
+<CyanobotsLeather.LeatherMergeDef MayRequireAnyOf="Mlie.TropickappRainforestMod,pphhyy.DemigryphsMod,sarg.alphaanimals,Mlie.TropickappRainforestMod">
+	<defName>LeatherMerge_Polar</defName>
+	<mergeTo>CYB_Leather_Polar</mergeTo>
+	<mergeFrom>
+		<li MayRequire="Mlie.TropickappRainforestMod">CK_LeatherSnowLeopard</li>
+		<li MayRequire="pphhyy.DemigryphsMod">pphhyy_coldLeather_Demigryph</li>		
+		<li MayRequire="sarg.alphaanimals">AA_ArcticLion_Leather</li>
+		<li MayRequire="Mlie.TropickappRainforestMod">CK_LeatherSnowLeopard</li>
+	</mergeFrom>
+</CyanobotsLeather.LeatherMergeDef>
+
+<CyanobotsLeather.LeatherMergeDef MayRequire="BiomesTeam.BiomesIslands,cyanobot.coloredleatherandwool">
+	<defName>LeatherMerge_BMT_Flamingo</defName>
+	<mergeTo>Leather_Bird</mergeTo>
+	<mergeFrom>
+		<li>BiomesIslands_Leather_Flamingo</li>
+	</mergeFrom>
+</CyanobotsLeather.LeatherMergeDef>
+
+<CyanobotsLeather.LeatherMergeDef MayRequire="BiomesTeam.BiomesCore,VanillaExpanded.VanillaAnimalsExpanded">
+	<defName>LeatherMerge_AEXP_Leather_Pinniped</defName>
+	<mergeTo>BMT_Pinnipedskin</mergeTo>
+	<mergeFrom>
+		<li>AEXP_Leather_Pinniped</li>
+	</mergeFrom>
+</CyanobotsLeather.LeatherMergeDef>
+
+<CyanobotsLeather.LeatherMergeDef MayRequire="BiomesTeam.BiomesIslands">
+	<defName>LeatherMerge_BMT_Pinnipedskin</defName>
+	<mergeTo>BMT_Pinnipedskin</mergeTo>
+	<mergeFrom>
+		<li>BiomesIslands_Leather_Pinnipedskin</li>
+	</mergeFrom>
+</CyanobotsLeather.LeatherMergeDef>
+
+</Defs>

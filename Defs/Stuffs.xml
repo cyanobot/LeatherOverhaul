@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+<!--
+<StuffCategoryDef>
+    <defName>CYB_Furry</defName>
+    <label>furry</label>
+    <noun>fur</noun>
+    <destroySoundSmall>BuildingDestroyed_Soft_Small</destroySoundSmall>
+    <destroySoundMedium>BuildingDestroyed_Soft_Medium</destroySoundMedium>
+</StuffCategoryDef>
+
+<StuffCategoryDef>
+    <defName>CYB_LeatheryNoFur</defName>
+    <label>leathery</label>
+    <noun>leather</noun>
+    <destroySoundSmall>BuildingDestroyed_Soft_Small</destroySoundSmall>
+    <destroySoundMedium>BuildingDestroyed_Soft_Medium</destroySoundMedium>
+</StuffCategoryDef>
+-->
+
+<StuffCategoryDef>
+	<defName>CYB_Hide</defName>
+	<label>animal skin</label>
+    <destroySoundSmall>BuildingDestroyed_Soft_Small</destroySoundSmall>
+    <destroySoundMedium>BuildingDestroyed_Soft_Medium</destroySoundMedium>
+</StuffCategoryDef>
+
+</Defs>

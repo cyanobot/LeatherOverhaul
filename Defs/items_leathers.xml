@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="LeatherBase">
+		<defName>CYB_Leather_Wool</defName>
+		<label>woolskin</label>
+		<description>The tanned hide of a wooly animal, still bearing an insulating layer of wool.</description>
+		<graphicData>
+		  <color>(220,220,220)</color>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>120</MaxHitPoints>
+			<MarketValue>2.3</MarketValue>
+			<StuffPower_Armor_Sharp>0.76</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.29</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>1.5</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>25</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>14</StuffPower_Insulation_Heat>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<stuffProps>
+		  <color>(220,220,220)</color>
+		  <commonality>0.08</commonality>
+		  <!--
+		  <categories>
+			<li>CYB_Furry</li>
+		  </categories>
+		  -->
+		  <statFactors>
+			<MaxHitPoints>1.2</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<Comfort>1.05</Comfort>
+			<WorkToMake>1.1</WorkToMake>
+			<EquipDelay>1.05</EquipDelay>
+		  </statFactors>
+		</stuffProps>	
+		<modExtensions>
+			<li Class="CyanobotsLeather.DME_LeatherExtension">
+				<shornEquivalent>Leather_Light</shornEquivalent>				
+				<generateBasicHide>false</generateBasicHide>
+			</li>
+		</modExtensions>	
+	</ThingDef>
+	  
+	<ThingDef ParentName="LeatherBase">
+		<defName>CYB_Leather_Fur</defName>
+		<label>fur</label>
+		<description>A warm furry pelt, tanned and ready to wear.</description>
+		<graphicData>
+		  <color>(112,82,65)</color>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>120</MaxHitPoints>
+			<Mass>0.033</Mass>
+			<MarketValue>3.0</MarketValue>
+			<StuffPower_Armor_Sharp>0.88</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.26</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>1.5</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>26</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>14</StuffPower_Insulation_Heat>
+			<Flammability>1</Flammability>
+		</statBases>
+		<stuffProps>
+		  <color>(112,82,65)</color>
+		  <commonality>0.1</commonality>
+		  <!--
+		  <categories>
+			<li>CYB_Furry</li>
+		  </categories>
+		  -->
+		  <statFactors>
+			<MaxHitPoints>1.2</MaxHitPoints>
+			<Beauty>1.4</Beauty>
+			<Flammability>1</Flammability>
+			<Comfort>1.3</Comfort>
+			<WorkToMake>1</WorkToMake>
+			<EquipDelay>1</EquipDelay>
+			<Mass>1.1</Mass>
+		  </statFactors>
+		</stuffProps>
+		<modExtensions>
+			<li Class="CyanobotsLeather.DME_LeatherExtension">
+				<shornEquivalent>Leather_Light</shornEquivalent>
+				<tanFromWoolHide>true</tanFromWoolHide>
+				<hideDescription>The unprocessed pelt of a furry animal. This fur is warm and thick, while the skin beneath is sturdy and will offer decent protection once tanned.</hideDescription>
+			</li>
+		</modExtensions>
+		<colorGeneratorInTraderStock Class="ColorGenerator_Options">
+			<options>
+			<li>
+			  <weight>1</weight>
+			  <only>(89, 71, 65)</only>
+			</li>
+			<li>
+			  <weight>1</weight>
+			  <only>(248, 242, 223)</only>
+			</li>
+			<li>
+			  <weight>1</weight>
+			  <only>(109, 105, 102)</only>
+			</li>
+			<li>
+			  <weight>1</weight>
+			  <only>(182,130,77)</only>
+			</li>
+			<li>
+			  <weight>1</weight>
+			  <only>(109,90,71)</only>
+			</li>
+			<li>
+			  <weight>1</weight>
+			  <only>(161,120,75)</only>
+			</li>
+			<li>
+			  <weight>1</weight>
+			  <only>(60,60,60)</only>
+			</li>
+			<li>
+			  <weight>1</weight>
+			  <only>(173,155,138)</only>
+			</li>
+			</options>
+		</colorGeneratorInTraderStock>
+		
+	</ThingDef>
+	
+	<ThingDef ParentName="LeatherBase">
+		<defName>CYB_Leather_SoftFur</defName>
+		<label>soft fur</label>
+		<description>A luxuriously soft furry pelt, tanned and ready to wear.</description>
+		<graphicData>
+		  <color>(140,85,36)</color>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<MarketValue>4.1</MarketValue>
+			<StuffPower_Armor_Sharp>0.58</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.14</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>1</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>22</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>14</StuffPower_Insulation_Heat>
+			<Flammability>1.4</Flammability>
+		</statBases>
+		<stuffProps>
+		  <color>(140,85,36)</color>
+		  <commonality>0.08</commonality>
+		  <!--
+		  <categories>
+			<li>CYB_Furry</li>
+		  </categories>
+		  -->
+		  <statFactors>
+			<MaxHitPoints>1.0</MaxHitPoints>
+			<Beauty>2.8</Beauty>
+			<Flammability>1.4</Flammability>
+			<Comfort>1.4</Comfort>
+		  </statFactors>
+		</stuffProps>		
+		<modExtensions>
+			<li Class="CyanobotsLeather.DME_LeatherExtension">
+				<shornEquivalent>Leather_Light</shornEquivalent>
+				<hideDescription>The unprocessed pelt of a small furry animal. This fur is soft and fine, suitable for luxury goods, but not as warm or as sturdy as a thicker pelt.</hideDescription>
+			</li>
+		</modExtensions>
+		<colorGeneratorInTraderStock Class="ColorGenerator_Options">	
+			<options>
+			<li>
+			  <weight>1</weight>
+			  <only>(220, 220, 220)</only>
+			</li>
+			<li>
+			  <weight>1</weight>
+			  <only>(196, 168, 114)</only>
+			</li>
+			<li>
+			  <weight>1</weight>
+			  <only>(167, 104, 49)</only>
+			</li>
+			<li>
+			  <weight>1</weight>
+			  <only>(218, 205, 171)</only>
+			</li>
+			<li>
+			  <weight>1</weight>
+			  <only>(93, 93, 93)</only>
+			</li>
+			<li>
+			  <weight>1</weight>
+			  <only>(167, 125, 65)</only>
+			</li>
+			<li>
+			  <weight>1</weight>
+			  <only>(165, 93, 64)</only>
+			</li>
+			<li>
+			  <weight>1</weight>
+			  <only>(161,95,38)</only>
+			</li>
+			<li>
+			  <weight>1</weight>
+			  <only>(110,95,82)</only>
+			</li>
+			</options>
+		</colorGeneratorInTraderStock>
+		
+	</ThingDef>
+	
+	<ThingDef ParentName="LeatherBase">
+		<defName>CYB_Leather_LuxuryFur</defName>
+		<label>luxury fur</label>
+		<description>Dense, luxurious fur from an animal with an especially soft pelt. It's beautiful, comfortable, and insulates well against cold, as well as fetching a high price.</description>
+		<graphicData>
+		  <color>(204,180,150)</color>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<MarketValue>6.5</MarketValue>
+			<StuffPower_Armor_Sharp>0.58</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.14</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>1</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>28</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>16</StuffPower_Insulation_Heat>
+			<Flammability>1.4</Flammability>
+		</statBases>
+		<stuffProps>
+		  <color>(204,180,150)</color>
+		  <commonality>0.025</commonality>
+		  <!--
+		  <categories>
+			<li>CYB_Furry</li>
+		  </categories>
+		  -->
+		  <statFactors>
+			<MaxHitPoints>1.0</MaxHitPoints>
+			<Beauty>3.6</Beauty>
+			<Flammability>1.4</Flammability>
+			<Comfort>1.6</Comfort>
+		  </statFactors>
+		</stuffProps>
+		<modExtensions>
+			<li Class="CyanobotsLeather.DME_LeatherExtension">
+				<shornEquivalent>Leather_Light</shornEquivalent>
+				<hideDescription>An incredibly soft, dense pelt, suitable for high-end luxury goods.</hideDescription>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="LeatherBase">
+		<defName>CYB_Leather_Thick</defName>
+		<label>thick leather</label>
+		<description>Tanned, dried, scraped animal skin. This leather is exceptionally thick and tough.</description>
+		<statBases>
+			<MaxHitPoints>160</MaxHitPoints>
+			<Mass>0.033</Mass>
+			<MarketValue>4.0</MarketValue>
+			<StuffPower_Armor_Sharp>1.22</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.32</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>1.7</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>16</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>16</StuffPower_Insulation_Heat>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<graphicData>
+		  <color>(150,150,150)</color>
+		</graphicData>
+		<stuffProps>
+		  <color>(150,150,150)</color>
+		  <commonality>0.025</commonality>
+		  <!--
+		  <categories>
+			<li>CYB_LeatheryNoFur</li>
+		  </categories>
+		  -->
+		  <statFactors>
+			<MaxHitPoints>1.6</MaxHitPoints>
+			<Beauty>3.2</Beauty>
+			<Flammability>0.5</Flammability>
+			<Comfort>0.9</Comfort>
+			<WorkToMake>1.2</WorkToMake>
+			<EquipDelay>1.1</EquipDelay>
+			<Mass>1.1</Mass>
+		  </statFactors>
+		</stuffProps>
+		<modExtensions>
+			<li Class="CyanobotsLeather.DME_LeatherExtension">
+				<woollyEquivalent>Leather_Heavy</woollyEquivalent>
+				<hideDescription>The skin of a large or exceptionally sturdy animal. Even untanned it offers substantial protection.</hideDescription>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="LeatherBase">
+		<defName>CYB_Leather_Polar</defName>
+		<label>polar fur</label>
+		<description>Incredibly dense fur from a large, polar animal. About the warmest fur around.</description>
+		<graphicData>
+		  <color>(220,220,220)</color>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>140</MaxHitPoints>
+			<Mass>0.048</Mass>
+			<MarketValue>5.2</MarketValue>
+			<StuffPower_Armor_Sharp>1.2</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.3</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>1.6</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>36</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>18</StuffPower_Insulation_Heat>
+			<Flammability>1.2</Flammability>
+		</statBases>
+		<stuffProps>
+		  <color>(220,220,220)</color>
+		  <commonality>0.02</commonality>
+		  <!--
+		  <categories>
+			<li>CYB_Furry</li>
+		  </categories>
+		  -->
+		  <statFactors>
+			<MaxHitPoints>1.4</MaxHitPoints>
+			<Beauty>3.0</Beauty>
+			<Flammability>1.2</Flammability>
+			<Comfort>1.4</Comfort>
+			<WorkToMake>1.3</WorkToMake>
+			<EquipDelay>1.15</EquipDelay>
+			<Mass>1.6</Mass>
+		  </statFactors>
+		</stuffProps>
+		<modExtensions>
+			<li Class="CyanobotsLeather.DME_LeatherExtension">
+				<shornEquivalent>Leather_Plain</shornEquivalent>
+				<tanFromWoolHide>true</tanFromWoolHide>
+				<hideDescription>Incredibly dense fur from a large, polar animal. About the warmest fur around, but not yet tanned and ready to use.</hideDescription>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="LeatherBase">
+		<defName>CYB_Leather_LightScale</defName>
+		<label>light scaleskin</label>
+		<description>The tanned skin of small scaled creature. It is supple and beautiful to look at, but the scales are thin and offer little protection. It's good at keeping the heat off, but not very insulating against cold.</description>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>0.027</Mass>
+			<MarketValue>3.6</MarketValue>
+			<StuffPower_Armor_Sharp>0.63</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.14</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>1.0</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>12</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>20</StuffPower_Insulation_Heat>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<graphicData>
+		  <color>(101,116,58)</color>
+		</graphicData>
+		<stuffProps>
+		  <color>(101,116,58)</color>
+		  <commonality>0.08</commonality>
+		  <!--
+		  <categories>
+			<li>CYB_LeatheryNoFur</li>
+		  </categories>
+		  -->
+		  <statFactors>
+			<MaxHitPoints>1.0</MaxHitPoints>
+			<Beauty>2.5</Beauty>
+			<Flammability>0.5</Flammability>
+			<Comfort>1.05</Comfort>
+			<Mass>0.9</Mass>
+		  </statFactors>
+		</stuffProps>
+		<modExtensions>
+			<li Class="CyanobotsLeather.DME_LeatherExtension">
+				<hideDescription>This scaly skin is soft and supple. It will make an attractive, but not especially tough leather.</hideDescription>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	
+	<ThingDef ParentName="LeatherBase">
+		<defName>CYB_Leather_HeavyScale</defName>
+		<label>heavy scales</label>
+		<description>The tanned skin of large creature with heavy, protective scales.</description>
+		<statBases>
+			<MaxHitPoints>170</MaxHitPoints>
+			<Mass>0.036</Mass>
+			<MarketValue>4.0</MarketValue>
+			<StuffPower_Armor_Sharp>1.3</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.3</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>1.7</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>12</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>18</StuffPower_Insulation_Heat>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<graphicData>
+		  <color>(101,116,58)</color>
+		</graphicData>
+		<stuffProps>
+		  <color>(101,116,58)</color>
+		  <commonality>0.03</commonality>
+		  <!--
+		  <categories>
+			<li>CYB_LeatheryNoFur</li>
+		  </categories>
+		  -->
+		  <statFactors>
+			<MaxHitPoints>1.7</MaxHitPoints>
+			<Beauty>1.8</Beauty>
+			<Flammability>0.5</Flammability>
+			<Comfort>0.9</Comfort>
+			<WorkToMake>1.4</WorkToMake>
+			<EquipDelay>1.1</EquipDelay>
+			<Mass>1.2</Mass>
+		  </statFactors>
+		</stuffProps>
+		<modExtensions>
+			<li Class="CyanobotsLeather.DME_LeatherExtension">
+				<hideDescription>These thick scales will make for sturdy defensive leather when properly tanned.</hideDescription>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	
+	
+</Defs>

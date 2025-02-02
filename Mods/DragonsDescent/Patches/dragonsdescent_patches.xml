@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/ThingDef[defName="Dragon_Leather"]</xpath>
+		<value>
+			<li Class="CyanobotsLeather.DME_LeatherExtension">
+				<hideDescription>The scaled skin of a dragon.</hideDescription>
+			</li>
+		</value>
+</Operation>
+
+<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/ThingDef[defName="Rare_Dragon_Leather"]</xpath>
+		<value>
+			<li Class="CyanobotsLeather.DME_LeatherExtension">
+				<hideDescription>The scaled skin of a rare dragon, exceptionally valuable even before tanning.</hideDescription>
+			</li>
+		</value>
+</Operation>
+
+<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/ThingDef[defName="True_Dragon_Leather"]</xpath>
+		<value>
+			<li Class="CyanobotsLeather.DME_LeatherExtension">
+				<hideDescription>The scaled skin of a true dragon, fit to be refined into one of the most precious leathers on the Rim.</hideDescription>
+			</li>
+		</value>
+</Operation>
+
+</Patch>
