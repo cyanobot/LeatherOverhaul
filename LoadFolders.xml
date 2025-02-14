@@ -7,8 +7,11 @@
 	<li IfModActive="adaptive.storage.neolithic">Mods/AdaptiveStorageNeolithic</li>
 	<li IfModActive="DoctorStupid.PrettySkin">Mods/HumanButchery2</li>
     <li IfModActive="onyxae.dragonsdescent">Mods/DragonsDescent</li>
+    <li IfModActive="Mlie.MoreThrumbos">Mods/MoreThrumbos</li>
+    <li IfModActive="Maximilian.MoreThrumbos">Mods/MoreThrumbosRetextured</li>
     <li IfModActive="cyanobot.OncaAndUncia">Mods/OncaAndUncia</li>
     <li IfModActive="ReGrowth.BOTR.Core">Mods/ReGrowth</li>
+    <li IfModActive="Mlie.RoyalThrumbos">Mods/RoyalThrumbos</li>
     <li IfModActive="VanillaExpanded.VAEWaste">Mods/VanillaAnimalsExpandedWaste</li>
     <li IfModActive="vanillaracesexpanded.pigskin">Mods/VanillaRacesExpandedPigskin</li>
   </v1.5>

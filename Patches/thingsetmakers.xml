@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingSetMakerDef//thingSetMaker/fixedParams/filter
+		[categories[li="ResourcesRaw"] and not(disallowedCategories)]</xpath>
+	<value>
+		<disallowedCategories/>
+	</value>
+	<success>Always</success>
+</Operation>
+
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingSetMakerDef//thingSetMaker/fixedParams/filter
+		[categories[li="ResourcesRaw"]]/disallowedCategories</xpath>
+	<value>
+		<li>CYB_Hides</li>
+	</value>
+</Operation>
+
+</Patch>

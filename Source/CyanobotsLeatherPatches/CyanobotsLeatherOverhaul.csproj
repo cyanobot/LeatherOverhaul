@@ -21,7 +21,7 @@
     <OutputPath>..\..\Assemblies\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>1</WarningLevel>
+    <WarningLevel>3</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -30,7 +30,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>5</WarningLevel>
-    <PlatformTarget>ARM64</PlatformTarget>
+    <PlatformTarget>AnyCPU</PlatformTarget>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="0Harmony">
@@ -66,6 +66,8 @@
     <Compile Include="DefRemoval.cs" />
     <Compile Include="DME_LeatherExtension.cs" />
     <Compile Include="Harmony\Patch_HotReloadDefs.cs" />
+    <Compile Include="Harmony\Patch_IsDerpAndDisallowed.cs" />
+    <Compile Include="Harmony\Patch_IsLeather.cs" />
     <Compile Include="Harmony\Patch_TakeOutProduct.cs" />
     <Compile Include="Harmony\Patch_ThoughtWorker_DreadLeatherApparel_ApparelCounts.cs" />
     <Compile Include="ImpliedDefUtility.cs" />

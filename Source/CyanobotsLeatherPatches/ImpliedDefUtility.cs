@@ -257,7 +257,6 @@ namespace CyanobotsLeather
             };
             hideDef.thingCategories = new List<ThingCategoryDef>
             {
-                ThingCategoryDefOf.Leathers,
                 CyanobotsLeather_DefOf.CYB_Hides
             };
             hideDef.burnableByRecipe = true;

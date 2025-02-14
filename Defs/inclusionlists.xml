@@ -13,6 +13,9 @@
 		<li MayRequire="BiomesTeam.BiomesCaverns">BMT_CrimsonSilk</li>
 		<li MayRequire="sarg.alphaanimals">Leather_RaptorPlates</li>
 		<li MayRequire="sarg.alphaanimals">Leather_Cactus</li>
+		<li>WoodLog</li>
+		<li>Cloth</li>
+		<li>WoolSheep</li>
 	</blacklist>
 </CyanobotsLeather.DefListDef>
 

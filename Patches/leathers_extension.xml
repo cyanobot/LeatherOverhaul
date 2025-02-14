@@ -67,6 +67,8 @@
 	<value>
 		<li Class="CyanobotsLeather.DME_LeatherExtension">
 			<hideDescription>The pelt of the thrumbo is renowned across the rim for its strength, beauty, and warmth. Its properties only improve with tanning.</hideDescription>
+			<tanFromWoolHide>true</tanFromWoolHide>
+			<shornEquivalent>CYB_Leather_Thick</shornEquivalent>
 		</li>
 	</value>
 </Operation>
@@ -81,13 +83,18 @@
 	</value>
 </Operation>
 
-<Operation Class="PatchOperationAddModExtension">
-	<xpath>Defs/ThingDef[defName="Leather_Dread"]</xpath>
-	<value>
-		<li Class="CyanobotsLeather.DME_LeatherExtension">
-			<hideDescription>This peculiar skin has an unpleasant texture and a distinctive, nauseating odour.</hideDescription>
-		</li>
-	</value>
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Anomaly</li>
+	</mods>
+	<match Class="PatchOperationAddModExtension">
+		<xpath>Defs/ThingDef[defName="Leather_Dread"]</xpath>
+		<value>
+			<li Class="CyanobotsLeather.DME_LeatherExtension">
+				<hideDescription>This peculiar skin has an unpleasant texture and a distinctive, nauseating odour.</hideDescription>
+			</li>
+		</value>
+	</match>
 </Operation>
 
 </Patch>

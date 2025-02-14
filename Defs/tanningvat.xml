@@ -28,7 +28,7 @@
 			<li>Metallic</li>
 			<li>Woody</li>
 		</stuffCategories>
-		<costStuffCount>30</costStuffCount>
+		<costStuffCount>80</costStuffCount>
 		<researchPrerequisites>
 			<li>CYB_Tanning</li>
 		</researchPrerequisites>
@@ -52,7 +52,7 @@
 		<comps>
 			<li Class="ProcessorFramework.CompProperties_Processor">
 				<showProductIcon>false</showProductIcon>
-				<capacity>75</capacity>
+				<capacity>200</capacity>
 				<independentProcesses>true</independentProcesses>
 				<parallelProcesses>true</parallelProcesses>
 				<processes/>

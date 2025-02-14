@@ -21,9 +21,6 @@
 		<stuffProps>
 		  <color>(180,60,60)</color>
 		  <commonality>0.01</commonality>
-		  <categories>
-			<li>CYB_Furry</li>
-		  </categories>
 		  <statFactors>
 			<MaxHitPoints>1.3</MaxHitPoints>
 			<Flammability>0.5</Flammability>

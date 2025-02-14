@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/TraderKindDef/stockGenerators/
+		li[categoryDef="ResourcesRaw" and not(excludedCategories)]</xpath>
+	<value>
+		<excludedCategories/>
+	</value>
+	<success>Always</success>
+</Operation>
+
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/TraderKindDef/stockGenerators/
+		li[categoryDef="ResourcesRaw"]/excludedCategories</xpath>
+	<value>
+		<li>CYB_Hides</li>
+	</value>
+</Operation>
+
+</Patch>

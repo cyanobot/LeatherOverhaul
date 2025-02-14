@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationAddModExtension">
+	<xpath>Defs/ThingDef[defName="RoyalThrumbo_Leather"]</xpath>
+	<value>
+		<li Class="CyanobotsLeather.DME_LeatherExtension">
+			<hideDescription>The unprocessed pelt of a royal thrumbo. Luxurious, durable and valuable even before tanning.</hideDescription>
+			<shornEquivalent>CYB_Leather_Thick</shornEquivalent>
+			<tanFromWoolHide>true</tanFromWoolHide>
+		</li>
+	</value>
+</Operation>
+
+</Patch>

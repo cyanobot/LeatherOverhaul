@@ -27,7 +27,11 @@
 		<li>Ludeon.RimWorld.Royalty</li>
 		<li>Ludeon.RimWorld.Ideology</li>
 		<li>Ludeon.RimWorld.Biotech</li>
+		<li>Ludeon.RimWorld.Anomaly</li>
 		<li>syrchalis.processor.framework</li>
 		<li>adaptive.storage.neolithic</li>
-	</loadAfter>	
+	</loadAfter>
+	<incompatibleWith>
+		<li>DankPyon.Medieval.Overhaul</li>
+	</incompatibleWith>
 </ModMetaData>
