@@ -22,4 +22,25 @@
 	</thingCategories>
 </ThingDef>
 
+<ThingDef ParentName="ResourceBase">
+	<defName>CYB_TanningSolution</defName>
+	<label>tanning solution</label>
+	<description>A chemical mix that replicates the effect of tannin on animal hide, turning it into leather.</description>
+	<graphicData>
+		<texPath>Things/Item/Resource/CYB_TanningSolution</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<drawSize>(0.8,0.8)</drawSize>
+	</graphicData>
+	<statBases>
+		<MaxHitPoints>30</MaxHitPoints>
+		<DeteriorationRate>2</DeteriorationRate>
+		<Mass>0.03</Mass>
+		<Flammability>1</Flammability>
+		<MarketValue>0.3</MarketValue>
+	</statBases>
+	<thingCategories>
+		<li>Manufactured</li>
+	</thingCategories>
+</ThingDef>
+
 </Defs>

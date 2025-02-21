@@ -66,6 +66,7 @@
 <RecipeDef>
 	<defName>CYB_Make_Tannin</defName>
 	<label>make tannin</label>
+	<description>Heat and soak logs to extract the rich dark tannins.</description>
 	<jobString>Making tannin.</jobString>
 	<workAmount>600</workAmount>
 	<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -134,6 +135,80 @@
       <li>Campfire</li>
       <li>FueledStove</li>
 	  <li>ElectricStove</li>
+    </recipeUsers>
+</RecipeDef>
+
+<RecipeDef>
+	<defName>CYB_Make_TanningSolution</defName>
+	<label>make tanning solution</label>
+	<description>Refine chemfuel into an artificial tanning solution.</description>
+	<jobString>Making tanning solution.</jobString>
+	<workAmount>400</workAmount>
+	<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+	<effectWorking>Cremate</effectWorking>
+	<soundWorking>Recipe_Cremate</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Chemfuel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <CYB_TanningSolution>25</CYB_TanningSolution>
+    </products>
+    <workSkill>Crafting</workSkill>
+	<researchPrerequisites>
+		<li>CYB_Tanning</li>
+		<li>BiofuelRefining</li>
+	</researchPrerequisites>
+    <recipeUsers>
+      <li>BiofuelRefinery</li>
+    </recipeUsers>
+</RecipeDef>
+
+<RecipeDef>
+	<defName>CYB_Make_TanningSolution_Bulk</defName>
+	<label>make tanning solution x75</label>
+	<description>Refine chemfuel into an artificial tanning solution.</description>
+	<jobString>Making tanning solution in bulk.</jobString>
+	<workAmount>1200</workAmount>
+	<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+	<effectWorking>Cremate</effectWorking>
+	<soundWorking>Recipe_Cremate</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </filter>
+        <count>60</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Chemfuel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <CYB_TanningSolution>75</CYB_TanningSolution>
+    </products>
+    <workSkill>Crafting</workSkill>
+	<researchPrerequisites>
+		<li>CYB_Tanning</li>
+		<li>BiofuelRefining</li>
+	</researchPrerequisites>
+    <recipeUsers>
+      <li>BiofuelRefinery</li>
     </recipeUsers>
 </RecipeDef>
 

@@ -64,6 +64,7 @@
 				<fuelFilter>
 					<thingDefs>
 						<li>CYB_Tannin</li>
+						<li>CYB_TanningSolution</li>
 					</thingDefs>
 				</fuelFilter>
 				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
