@@ -87,6 +87,7 @@
     <Compile Include="TextUtility.cs" />
     <Compile Include="WoolUtility.cs" />
     <Compile Include="ThoughtWorker_UntannedApparel.cs" />
+    <Compile Include="YakUtility.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

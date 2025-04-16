@@ -329,49 +329,14 @@ namespace CyanobotsLeather
             {
                 DebugLog("Found chameleon yak.");
 
-                GenerateAndRegisterChameleonYakHides(animalDef, shornDef, tannedDef, hotReload);
+                YakUtility.GenerateAndRegisterChameleonYakHides(animalDef, shornDef, tannedDef, hotReload);
 
                 return null;
             }
 
             return GenerateAndRegisterWoolHide(animalDef, woolDef, shornDef, tannedDef, hotReload);
         }
-        public static void GenerateAndRegisterChameleonYakHides(ThingDef yakDef, ThingDef shornDef, ThingDef tannedDef, bool hotReload)
-        {
-            CompProperties props_AnimalProduct = yakDef.comps.Find(p => p.GetType() == t_CompProperties_AnimalProduct);
-            List<string> seasonalItems = f_seasonalItems.GetValue(props_AnimalProduct) as List<string>;
-            if (seasonalItems.NullOrEmpty()) return;
 
-            List<ThingDef> woolDefs = seasonalItems.Select(s => DefDatabase<ThingDef>.GetNamed(s)).ToList();
-            DebugLog("yak woolDefs: " + woolDefs.ToStringSafeEnumerable());
-            foreach (ThingDef yakWool in woolDefs)
-            {
-                string labelSuffix = "";
-                if (yakWool.defName == "AA_ChameleonYakWoolTemperate")
-                {
-                    labelSuffix = ", temperate";
-                }
-                else if (yakWool.defName == "AA_ChameleonYakWoolWinter")
-                {
-                    labelSuffix = ", winter";
-                }
-                else if (yakWool.defName == "AA_ChameleonYakWoolJungle")
-                {
-                    labelSuffix = ", jungle";
-                }
-                else if (yakWool.defName == "AA_ChameleonYakWoolDesert")
-                {
-                    labelSuffix = ", desert";
-                }
-                else
-                {
-                    continue;
-                }
-
-                ThingDef hideDef = GenerateAndRegisterWoolHide(yakDef, yakWool, shornDef, tannedDef, hotReload);
-                hideDef.label += labelSuffix;
-            }
-        }
         public static List<StatModifier> GetHideStatBases(ThingDef leatherDef)
         {
             List<StatModifier> statBases = new List<StatModifier>();

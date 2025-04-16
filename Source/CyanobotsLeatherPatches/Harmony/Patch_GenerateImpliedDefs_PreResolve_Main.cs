@@ -75,7 +75,7 @@ namespace CyanobotsLeather
             }
             DebugLog("generated woolHides: " + generatedWoolHideDefs.Values.ToStringSafeEnumerable());
 
-            //for each animal that drops a leather we've replacedreplaced
+            //for each animal that drops a leather we've replaced
             //set it to drop the untanned hide instead
             foreach (KeyValuePair<ThingDef,ThingDef> kvp in leatherAnimals)
             {

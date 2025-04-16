@@ -97,8 +97,6 @@ namespace CyanobotsLeather
                     }
                     if (shearable)
                     {
-                        
-
                         CompShearableHide compShearableHide = thing.TryGetComp<CompShearableHide>();
                         LogUtil.DebugLog("Leather shearable, compHide: " + compShearableHide + "__instance.def: " + __instance.def);
                         //compHide.pawnDef = __instance.def;
@@ -123,42 +121,15 @@ namespace CyanobotsLeather
                     if (AALoaded && __instance.def.defName == "AA_ChameleonYak")
                     {
                         LogUtil.DebugLog("found chameleonyak");
-                        HediffSet hediffs = __instance.health?.hediffSet;
-                        string hideName = "CYB_Hide_Wool_AA_ChameleonYakWoolTemperate";
-                        if (hediffs == null) ;
-                        else if (hediffs.HasHediff(DefDatabase<HediffDef>.GetNamed("AA_WinterPelt")))
+                        Thing hide = YakUtility.MakeHideFromYak(__instance, thing.stackCount);
+                        if (hide != null)
                         {
-                            hideName = "CYB_Hide_Wool_AA_ChameleonYakWoolWinter";
-                        }
-                        else if (hediffs.HasHediff(DefDatabase<HediffDef>.GetNamed("AA_JunglePelt")))
-                        {
-                            hideName = "CYB_Hide_Wool_AA_ChameleonYakWoolJungle";
-                        }
-                        else if (hediffs.HasHediff(DefDatabase<HediffDef>.GetNamed("AA_DesertPelt")))
-                        {
-                            hideName = "CYB_Hide_Wool_AA_ChameleonYakWoolDesert";
-                        }
-
-                        ThingDef hideDef = DefDatabase<ThingDef>.GetNamed(hideName);
-
-                        float fullness = CurrentWoolFullness(__instance, null);
-
-                        if (fullness < 0.3f)
-                        {
-                            ThingDef shornHideDef = hideDef
-                                .GetCompProperties<CompProperties_ShearableHide>()?.shornHideDef;
-                            Thing shornHide = ThingMaker.MakeThing(shornHideDef);
-                            shornHide.stackCount = thing.stackCount;
-                            yield return shornHide;
+                            yield return hide;
                             continue;
                         }
                         else
                         {
-                            Thing woolHide = ThingMaker.MakeThing(hideDef);
-                            woolHide.stackCount = thing.stackCount;
-                            woolHide.TryGetComp<CompShearableHide>().woolPerUnit = fullness * WoolAmountPerLeatherFor(__instance.def);
-                            yield return woolHide;
-                            continue;
+                            Log.Error("[Cyanobot's Leather] Failed to find appropriate hide for chameleon yak");
                         }
                     }
 
